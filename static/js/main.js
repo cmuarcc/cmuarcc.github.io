@@ -19,7 +19,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
     // Pages
 
-    .otherwise("/404", {templateUrl: "partials/home.html", controller: "PageCtrl"});
+    .otherwise("/", {templateUrl: "partials/home.html", controller: "PageCtrl"});
 }]);
 
 /**
