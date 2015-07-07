@@ -16,7 +16,7 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    .when("/", {templateUrl: "static/partials/home.html", controller: "PageCtrl"})
     // Pages
     .when("/members", {templateUrl: "static/partials/members.html", controller: "PageCtrl"})
     .when("/events", {templateUrl: "static/partials/events.html", controller: "PageCtrl"})
