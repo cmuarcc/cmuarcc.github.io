@@ -18,6 +18,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     // Home
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
     // Pages
+    .when("/members", {templateUrl: "partials/members.html", controller: "PageCtrl"})
+    .when("/events", {templateUrl: "partials/events.html", controller: "PageCtrl"})
+    .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
 
     .otherwise("/", {templateUrl: "partials/home.html", controller: "PageCtrl"});
 }]);
