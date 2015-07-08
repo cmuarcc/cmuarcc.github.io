@@ -16,11 +16,11 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    .when("/", {templateUrl: "static/partials/home.html", controller: "PageCtrl"})
     // Pages
-    .when("/members", {templateUrl: "partials/members.html", controller: "PageCtrl"})
-    .when("/events", {templateUrl: "partials/events.html", controller: "PageCtrl"})
-    .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
+    .when("/members", {templateUrl: "static/partials/members.html", controller: "PageCtrl"})
+    .when("/events", {templateUrl: "static/partials/events.html", controller: "PageCtrl"})
+    .when("/about", {templateUrl: "static/partials/about.html", controller: "PageCtrl"})
 
     .otherwise("/", {templateUrl: "partials/home.html", controller: "PageCtrl"});
 }]);
