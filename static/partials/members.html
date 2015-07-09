@@ -11,71 +11,23 @@
       			</h1>
     		</div>
 
-    		<div class="col-md-6">
-			<img class="img-circle img-responsive pull-left box" src="http://placehold.it/200x200"> 
-      			<h3> whodis whodat  
-			<small>i'mdismajorandyear</small>
-			</h3>
-			<p>I'm super interesting didn't you know wao look at me. I'm super coolios, lub me. 
-			   Description description. I DO ALL THE THINGS!! MAGICS AND SPARKLESSSS....... 
-			   Lorem fat fat fat fat fat. Wassup broski. Why am I too lazy to look up a lorem
-			   ipsum generator right now. Waow I really suck at this. </p>
-    		</div>
-
-                <div class="col-md-6">                                                                                                                                       
-                        <img class="img-circle img-responsive pull-left box" src="http://placehold.it/200x200">                                                                                 
-                        <h3> whodis whodat                                                                                                                                   
-                        <small>i'mdismajorandyear</small>                                                                                                                    
-                        </h3>                                                                                                                                                
-                        <p>I'm super interesting didn't you know wao look at me. I'm super coolios, lub me.                                                                  
-                           Description description. I DO ALL THE THINGS!! MAGICS AND SPARKLESSSS.......                                                                      
-                           Lorem fat fat fat fat fat. Wassup broski. Why am I too lazy to look up a lorem                                                                    
-                           ipsum generator right now. Waow I really suck at this. </p>                                                                                       
-                </div>
-
-                <div class="col-md-6">                                                                                                                                       
-                        <img class="img-circle img-responsive pull-left box" src="http://placehold.it/200x200">                                                                                 
-                        <h3> whodis whodat                                                                                                                                   
-                        <small>i'mdismajorandyear</small>                                                                                                                    
-                        </h3>                                                                                                                                                
-                        <p>I'm super interesting didn't you know wao look at me. I'm super coolios, lub me.                                                                  
-                           Description description. I DO ALL THE THINGS!! MAGICS AND SPARKLESSSS.......                                                                      
-                           Lorem fat fat fat fat fat. Wassup broski. Why am I too lazy to look up a lorem                                                                    
-                           ipsum generator right now. Waow I really suck at this. </p>                                                                                       
-                </div>
-
-                <div class="col-md-6">                                                                                                                                       
-                        <img class="img-circle img-responsive pull-left box" src="http://placehold.it/200x200">                                                                                 
-                        <h3> whodis whodat                                                                                                                                   
-                        <small>i'mdismajorandyear</small>                                                                                                                    
-                        </h3>                                                                                                                                                
-                        <p>I'm super interesting didn't you know wao look at me. I'm super coolios, lub me.                                                                  
-                           Description description. I DO ALL THE THINGS!! MAGICS AND SPARKLESSSS.......                                                                      
-                           Lorem fat fat fat fat fat. Wassup broski. Why am I too lazy to look up a lorem                                                                    
-                           ipsum generator right now. Waow I really suck at this. </p>                                                                                       
-                </div>
-
-                <div class="col-md-6">                                                                                                                                       
-                        <img class="img-circle img-responsive pull-left box" src="http://placehold.it/200x200">                                                                                 
-                        <h3> whodis whodat                                                                                                                                   
-                        <small>i'mdismajorandyear</small>                                                                                                                    
-                        </h3>                                                                                                                                                
-                        <p>I'm super interesting didn't you know wao look at me. I'm super coolios, lub me.                                                                  
-                           Description description. I DO ALL THE THINGS!! MAGICS AND SPARKLESSSS.......                                                                      
-                           Lorem fat fat fat fat fat. Wassup broski. Why am I too lazy to look up a lorem                                                                    
-                           ipsum generator right now. Waow I really suck at this. </p>                                                                                       
-                </div>
-
-                <div class="col-md-6">                                                                                                                                       
-                        <img class="img-circle img-responsive pull-left box" src="http://placehold.it/200x200">                                                                                 
-                        <h3> whodis whodat                                                                                                                                   
-                        <small>i'mdismajorandyear</small>                                                                                                                    
-                        </h3>                                                                                                                                                
-                        <p>I'm super interesting didn't you know wao look at me. I'm super coolios, lub me.                                                                  
-                           Description description. I DO ALL THE THINGS!! MAGICS AND SPARKLESSSS.......                                                                      
-                           Lorem fat fat fat fat fat. Wassup broski. Why am I too lazy to look up a lorem                                                                    
-                           ipsum generator right now. Waow I really suck at this. </p>                                                                                       
-                </div>
+    	<div ng-controller="MemberCtrl as board">
+    		<div class="col-md-6 col-sm-12" ng-repeat="member in board.members">
+    			<div class="col-xs-4 col-sm-4">
+					<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
+      				<div class="col-xs-8 col-sm-8 member-info">
+      					<h3> 
+      						{{member.name}}
+							<small>{{member.position_year}}</small>
+						</h3>
+			
+						<p> 
+							{{member.description}}
+						</p>
+    				</div>
+ 				</div>
+		</div>
+    	</div>
 
   
 	</div>
