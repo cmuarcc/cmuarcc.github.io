@@ -54,7 +54,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             name: "Annie Chen",
             position: "President",
             major_year: "Information Systems '16",
-            description: "I'm a SoCal girl who enjoys cooking, gaming, reading manga, cosplaying, and helping others. I love hanging out with my ARCC family! &#9829;"
+            description: "I'm a SoCal girl who enjoys cooking, gaming, reading manga, cosplaying, and helping others. I love hanging out with my ARCC family!"
         },
         {
             name: "Louise Zhou",
