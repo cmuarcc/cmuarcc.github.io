@@ -6,7 +6,7 @@
 /**
  * Main AngularJS Web Application
  */
-var app = angular.module('cmuARCCWebsite', [
+var app = angular.module('tutorialWebApp', [
   'ngRoute'
 ]);
 
@@ -36,7 +36,7 @@ app.controller('BlogCtrl', function (/* $scope, $location, $http */) {
  * Controls the Member Profile Population
  */
 
-app.controller('MemberCtrl', function(/* $scope, $location, $http */) {
+app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
   console.log("Member Controlller reporting for duty.");
 
   // Activates the Carousel
