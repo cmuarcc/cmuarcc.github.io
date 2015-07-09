@@ -117,9 +117,117 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
         },
         {
             name: "Ivan Wang",
-            position: "Webmaster ",
+            position: "Webmaster",
             major_year: "",
-            description: ""       
+            description: "Honest and trustable, I joined ARCC to bond with others; indeed"       
+        },
+	{
+            name: "",
+            position: "Board Member",
+            major_year: "",
+            description: ""
+        },
+	{
+            name: "",
+            position: "Board Member",
+            major_year: "",
+            description: ""
+        },
+	{
+            name: "",
+            position: "Board Member",
+            major_year: "",
+            description: ""
+        },
+	{
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
+        },
+        {
+            name: "",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major_year: "",
+            description: ""
         }
     ];
 

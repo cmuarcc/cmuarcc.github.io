@@ -9,26 +9,26 @@
 				But we have a lot of fun while we're at it! Some of our past board bonding events have included potlucks, game nights,  ice skating, 
 				apple picking, and even toppling out of whitewater rafts. Good people, good fun. </small>
       			</h1>
-    	</div>
+    		</div>
 
-    	<div class="col-md-6 col-sm-12" ng-repeat="member in board.members">
-    		<div>
+    		<div class="col-md-6 col-sm-12" ng-repeat="member in board.members">
+    			<div >
 				<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
-      		</div>	
+      			</div>	
       			
-      		<div class="col-xs-8 col-sm-8 member-info">
-      			<h3> 
-      				{{member.name}}
+      			<div class="col-xs-8 col-sm-8 member-info">
+      				<h3> 
+      					{{member.name}}
 					<small>{{member.position}}</small>
-					</br> <small>
-					{{member.major_year}}</small>
+					</br> 
+					<p class="member-major-year">{{member.major_year}}</p>
 				</h3>
 			
 				<p> 
 					{{member.description}}
 				</p>
+    			</div>
     		</div>
-    	</div>
   
 	</div>
 
