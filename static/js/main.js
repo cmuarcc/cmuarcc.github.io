@@ -6,7 +6,7 @@
 /**
  * Main AngularJS Web Application
  */
-var app = angular.module('tutorialWebApp', [
+var app = angular.module('cmuARCCWebsite', [
   'ngRoute'
 ]);
 
@@ -53,15 +53,12 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
         {
             name: "Annie Chen",
             position_year: "President | Information Systems '16",
-            description: "I'm a SoCal girl who enjoys cooking, gaming, reading manga,
-            cosplaying, and helping others. I love hanging out with my ARCC family! &#9829;"
+            description: "I'm a SoCal girl who enjoys cooking, gaming, reading manga, cosplaying, and helping others. I love hanging out with my ARCC family! &#9829;"
         },
         {
             name: "Louise Zhou",
             position_year: "Vice President | Business Administration '17",
-            description: "Louise is from NorCal and believes firmly in Pearl Milk Tea, not Boba, 
-            not Bubble Tea. Louise enjoys eating pumpkin pie, watching dramas/anime, reading manga, 
-            and listening to k-pop. She is married to EXO's Kai."       
+            description: "Louise is from NorCal and believes firmly in Pearl Milk Tea, not Boba, not Bubble Tea. Louise enjoys eating pumpkin pie, watching dramas/anime, reading manga, and listening to k-pop. She is married to EXO's Kai."       
         },
         {
             name: "Lucy Tai",
