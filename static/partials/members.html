@@ -11,22 +11,24 @@
       			</h1>
     	</div>
 
-    		<div class="col-md-6 col-sm-12" ng-repeat="member in board.members">
-    			<div class="col-xs-4 col-sm-4">
-					<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
-      			</div>	
-      			<div class="col-xs-8 col-sm-8 member-info">
-      					<h3> 
-      						{{member.name}}
-							<small>{{member.position_year}}</small>
-						</h3>
+    	<div class="col-md-6 col-sm-12" ng-repeat="member in board.members">
+    		<div>
+				<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
+      		</div>	
+      			
+      		<div class="col-xs-8 col-sm-8 member-info">
+      			<h3> 
+      				{{member.name}}
+					<small>{{member.position}}
+					</br> 
+					{{member.major_year}}</small>
+				</h3>
 			
-						<p> 
-							{{member.description}}
-						</p>
-    				</div>
+				<p> 
+					{{member.description}}
+				</p>
     		</div>
-
+    	</div>
   
 	</div>
 
