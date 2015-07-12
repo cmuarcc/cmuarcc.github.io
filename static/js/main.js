@@ -55,7 +55,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "President",
             major: "Information Systems",
             year: "2016",
-            pic: "../images/members/annie.jpg",
+            pic: "static/images/members/annie.jpg",
             description: "I'm a SoCal girl who enjoys cooking, gaming, reading manga, cosplaying, and helping others. I love hanging out with my ARCC family!"
         },
         {
@@ -63,7 +63,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Vice President",
             major: " Business Administration",
             year: "2017",
-            pic: "../images/members/louise.jpg",
+            pic: "static/images/members/louise.jpg",
             description: "Louise is from NorCal and believes firmly in Pearl Milk Tea, not Boba, not Bubble Tea. Louise enjoys eating pumpkin pie, watching dramas/anime, reading manga, and listening to k-pop. She is married to EXO's Kai."       
         },
         {
@@ -71,7 +71,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Secretary",
             major: "Statistics",
             year: "2017",
-            pic: "../images/members/2.png",
+            pic: "static/images/members/2.png",
             description: ""       
         },
         {
@@ -79,7 +79,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Treasurer",
             major: "",
             year: "",
-            pic: "../images/members/michellem.jpg",
+            pic: "static/images/members/michellem.jpg",
             description: ""       
         },
         {
@@ -87,7 +87,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "ONiB Coordinator",
             major: "Neuroscience/Pre-Med",
             year: "2017",
-            pic: "../images/members/tim.jpg",
+            pic: "static/images/members/tim.jpg",
             description: "I love making people laugh because everyone's life is hard enough. Costco is life because they offer the best selection of USDA certified beef. I fangirl about princess movies and basketball. #knickstape"       
         },
         {
@@ -95,7 +95,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Performance Chair",
             major: "",
             year: "",
-            pic: "../images/members/2.png",
+            pic: "static/images/members/2.png",
             description: ""       
         },
         {
@@ -103,7 +103,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Culture Chair",
             major: "BME",
             year: "2018",
-            pic: "../images/members/2.png",
+            pic: "static/images/members/2.png",
             description: ""       
         },
         {
@@ -111,7 +111,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "PR Chair",
             major: "Chemistry",
             year: "2017",
-            pic: "../images/members/2.png",
+            pic: "static/images/members/2.png",
             description: ""      
         },
         {
@@ -119,7 +119,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Design Chair",
             major: "Information Systems",
             year: "2017",
-            pic: "../images/members/2.png",
+            pic: "static/images/members/2.png",
             description: ""       
         },
         {
@@ -127,7 +127,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Design Chair",
             major: "Business/Statistics",
             year: "2017",
-            pic: "../images/members/crystal.jpg",
+            pic: "static/images/members/crystal.jpg",
             description: ""       
         },
         {
@@ -135,7 +135,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Historian",
             major: "",
             year: "",
-            pic: "../images/members/2.png",
+            pic: "static/images/members/2.png",
             description: ""       
         },
         {
@@ -143,7 +143,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Webmaster",
             major: "Computer Science",
             year: "2016",
-            pic: "../images/members/ivan.jpg",
+            pic: "static/images/members/ivan.jpg",
             description: "Honest and trustable, I joined ARCC to bond with others; indeed, my sincerity is rivaled only by my camaraderie. When not cooperating in a friendly game of Resistance, I enjoy (deceit-free) board games, as well as coding, music, and game design."       
         },
 	   {
@@ -151,7 +151,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",
             major: "Business Administration",
             year: "2016",
-            pic: "../images/members/michelle.jpg",
+            pic: "static/images/members/michelle.jpg",
             description: ""
         },
 	   {
@@ -159,7 +159,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",
             major: "ECE",
             year: "2016",
-            pic: "../images/members/anny.jpg",
+            pic: "static/images/members/anny.jpg",
             description: "I love going on the interwebz! I have a strange addiction to watching gamers on Youtube and I also enjoy reading manga/watching anime. Red pandas are amazing."
         },
 	   {
@@ -167,7 +167,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",
             major: "",
             year: "",
-            pic: "../images/members/calvin.jpg",
+            pic: "static/images/members/calvin.jpg",
             description: ""
         },
 	   {
@@ -175,7 +175,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",                                                                                                                                                                 
             major: "Information Systems",
             year: "2016",
-            pic: "../images/members/maggie.jpg",
+            pic: "static/images/members/maggie.jpg",
             description: ""
         },
         {
@@ -183,7 +183,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",                                                                                                                                                                 
             major: "Information Systems",
             year: "2016",
-            pic: "../images/members/weikun.jpg",
+            pic: "static/images/members/weikun.jpg",
             description: ""
         },
         {
@@ -191,7 +191,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",                                                                                                                                                                 
             major: "Biology/Pre-Med",
             year: "2016",
-            pic: "../images/members/jamie.jpg",
+            pic: "static/images/members/jamie.jpg",
             description: "I got into acting because I couldn't play the piano. Oh and I'm from New York."
         },
         {
@@ -199,7 +199,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",                                                                                                                                                                 
             major: "Music/Flute Performance",
             year: "2016",
-            pic: "../images/members/jessica.jpg",
+            pic: "static/images/members/jessica.jpg",
             description: "I was born in Beijing and lived most of my life in the Greater Boston Area. Aside from music, I enjoy reading romance novels, baking sweet treats, shopping, and spending time with the ARCC Family!"
         },
         {
@@ -207,7 +207,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",                                                                                                                                                                 
             major: "Language Technology",
             year: "Doctoral",
-            pic: "../images/members/justin.jpg",
+            pic: "static/images/members/justin.jpg",
             description: ""
         },
         {
@@ -215,7 +215,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",                                                                                                                                                                 
             major: "ECE",
             year: "2016",
-            pic: "../images/members/nathan.jpg",
+            pic: "static/images/members/nathan.jpg",
             description: ""
         },
         {
@@ -223,7 +223,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",                                                                                                                                                                 
             major: "Mat Sci & Engineering",
             year: "Masters",
-            pic: "../images/members/michael.jpg",
+            pic: "static/images/members/michael.jpg",
             description: ""
         },
         {
@@ -231,7 +231,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             position: "Board Member",                                                                                                                                                                 
             major: "Computer Science",
             year: "2016",
-            pic: "../images/members/david.jpg",
+            pic: "static/images/members/david.jpg",
             description: ""
         }
     ];
