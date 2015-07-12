@@ -25,7 +25,7 @@
 
 	    		<div class="col-md-6 col-sm-12" ng-repeat="member in board.members | filter:{position: '!Board Member'}:false">
 	    			<div class="col-xs-4 col-sm-4">
-					<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
+					<img class="img-circle img-responsive pull-left member-photo" ng-src="{{member.pic}}"> 
 	      			</div>	
 	      			
 	      			<div class="col-xs-8 col-sm-8 member-info">
@@ -33,7 +33,7 @@
 	      					{{member.name}}
 						<small>{{member.position}}</small>
 						</br> 
-						<p class="member-major-year">{{member.major}} | {{member.year}}</p>
+						<p class="member-major-year" ng-show="member.major && member.year">{{member.major}} | {{member.year}}</p>
 					</h3>
 				
 					<p> 
@@ -44,7 +44,7 @@
 
 	    		<div class="col-md-6 col-sm-12" ng-repeat="member in board.members | filter:{position: 'Board Member'}:true | orderBy:'name'">
 	    			<div class="col-xs-4 col-sm-4">
-					<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
+					<img class="img-circle img-responsive pull-left member-photo" ng-src="{{member.pic}}"> 
 	      			</div>	
 	      			
 	      			<div class="col-xs-8 col-sm-8 member-info">
