@@ -99,7 +99,7 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
             description: ""       
         },
         {
-            name: "Rundong (Andy) Jiang",
+            name: "Rundong Jiang",
             position: "Culture Chair",
             major: "BME",
             year: "2018",
