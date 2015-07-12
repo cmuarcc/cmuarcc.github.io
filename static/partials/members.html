@@ -1,8 +1,9 @@
-<div class="container" ng-controller="MemberCtrl as board">
-  
-	<div class="row"> 
-  
-		<div class="col-lg-12">
+<div class="section-colored text-center">
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-12">
       			<h1 class="page-header text-center">Members
         			</br>
         			<small>Meet the board! Behind the scenes of all the extravagant events is a group of hard-working people who put it all together. 
@@ -10,26 +11,58 @@
 				apple picking, and even toppling out of whitewater rafts. Good people, good fun. </small>
       			</h1>
     		</div>
+		</div>
 
-    		<div class="col-md-6 col-sm-12" ng-repeat="member in board.members">
-    			<div class="col-xs-4 col-sm-4">
-				<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
-      			</div>	
-      			
-      			<div class="col-xs-8 col-sm-8 member-info">
-      				<h3> 
-      					{{member.name}}
-					<small>{{member.position}}</small>
-					</br> 
-					<p class="member-major-year">{{member.major_year}}</p>
-				</h3>
-			
-				<p> 
-					{{member.description}}
-				</p>
-    			</div>
-    		</div>
-  
+	</div>
+
+</div>
+
+<div class="section">
+
+	<div class="container" ng-controller="MemberCtrl as board">
+	  
+		<div class="row"> 
+
+	    		<div class="col-md-6 col-sm-12" ng-repeat="member in board.members | filter:{position: 'Board Member'}:false">
+	    			<div class="col-xs-4 col-sm-4">
+					<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
+	      			</div>	
+	      			
+	      			<div class="col-xs-8 col-sm-8 member-info">
+	      				<h3> 
+	      					{{member.name}}
+						<small>{{member.position}}</small>
+						</br> 
+						<p class="member-major-year">{{member.major}} | {{member.year}}</p>
+					</h3>
+				
+					<p> 
+						{{member.description}}
+					</p>
+	    			</div>
+	    		</div>
+
+	    		<div class="col-md-6 col-sm-12" ng-repeat="member in board.members | filter:{position: 'Board Member'}:true | orderBy:'name':true">
+	    			<div class="col-xs-4 col-sm-4">
+					<img class="img-circle img-responsive pull-left member-photo" src="http://placehold.it/180x180"> 
+	      			</div>	
+	      			
+	      			<div class="col-xs-8 col-sm-8 member-info">
+	      				<h3> 
+	      					{{member.name}}
+						<small>{{member.position}}</small>
+						</br> 
+						<p class="member-major-year" ng-show="member.major && member.year">{{member.major}} | {{member.year}}</p>
+					</h3>
+				
+					<p> 
+						{{member.description}}
+					</p>
+	    			</div>
+	    		</div>
+	  
+		</div>
+
 	</div>
 
 </div>

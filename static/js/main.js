@@ -53,180 +53,162 @@ app.controller('MemberCtrl', function (/* $scope, $location, $http */) {
         {
             name: "Annie Chen",
             position: "President",
-            major_year: "Information Systems '16",
+            major: "Information Systems",
+            year: "2016",
             description: "I'm a SoCal girl who enjoys cooking, gaming, reading manga, cosplaying, and helping others. I love hanging out with my ARCC family!"
         },
         {
             name: "Louise Zhou",
             position: "Vice President",
-            major_year: " Business Administration '17",
+            major: " Business Administration",
+            year: "2017",
             description: "Louise is from NorCal and believes firmly in Pearl Milk Tea, not Boba, not Bubble Tea. Louise enjoys eating pumpkin pie, watching dramas/anime, reading manga, and listening to k-pop. She is married to EXO's Kai."       
         },
         {
             name: "Lucy Tai",
             position: "Secretary",
-            major_year: "",
+            major: "Statistics",
+            year: "2017",
             description: ""       
         },
         {
             name: "Michelle Ma",
             position: "Treasurer",
-            major_year: "",
+            major: "",
+            year: "",
             description: ""       
         },
         {
             name: "Timothy Gao",
             position: "ONiB Coordinator",
-            major_year: "",
-            description: ""       
+            major: "Neuroscience/Pre-Med",
+            year: "2017",
+            description: "I love making people laugh because everyone's life is hard enough. Costco is life because they offer the best selection of USDA certified beef. I fangirl about princess movies and basketball. #knickstape"       
         },
         {
             name: "Mercy Soong",
             position: "Performance Chair",
+            major: "",
+            year: "",
             description: ""       
         },
         {
-            name: "Rundong Jiang",
+            name: "Rundong (Andy) Jiang",
             position: "Culture Chair",
-            major_year: "",
+            major: "BME",
+            year: "2018",
             description: ""       
         },
         {
             name: "Alicia Wu",
             position: "PR Chair",
-            major_year: "",
+            major: "Chemistry",
+            year: "2017",
             description: ""      
         },
         {
             name: "Clara Kim",
             position: "Design Chair",
-            major_year: "",
+            major: "Information Systems",
+            year: "2017",
             description: ""       
         },
         {
             name: "Crystal Hou",
             position: "Design Chair",
-            major_year: "",
+            major: "Business/Statistics",
+            year: "2017",
             description: ""       
         },
         {
             name: "Elizabeth Zeng",
             position: "Historian",
-            major_year: "",
+            major: "",
+            year: "",
             description: ""       
         },
         {
             name: "Ivan Wang",
             position: "Webmaster",
-            major_year: "",
-            description: "Honest and trustable, I joined ARCC to bond with others; indeed"       
+            major: "Computer Science",
+            year: "2016",
+            description: "Honest and trustable, I joined ARCC to bond with others; indeed, my sincerity is rivaled only by my camaraderie. When not cooperating in a friendly game of Resistance, I enjoy (deceit-free) board games, as well as coding, music, and game design."       
         },
-	{
-            name: "",
+	   {
+            name: "Michelle Wong",
             position: "Board Member",
-            major_year: "",
+            major: "Business Administration",
+            year: "2016",
             description: ""
         },
-	{
-            name: "",
+	   {
+            name: "Anny Ni",
             position: "Board Member",
-            major_year: "",
-            description: ""
+            major: "ECE",
+            year: "2016",
+            description: "I love going on the interwebz! I have a strange addiction to watching gamers on Youtube and I also enjoy reading manga/watching anime. Red pandas are amazing."
         },
-	{
-            name: "",
+	   {
+            name: "Calvin Chan",
             position: "Board Member",
-            major_year: "",
+            major: "",
+            year: "",
             description: ""
         },
-	{
-            name: "",                                                                                                                                                                                 
+	   {
+            name: "Maggie Li",                                                                                                                                                                                 
             position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
+            major: "Information Systems",
+            year: "2016",
             description: ""
         },
         {
-            name: "",                                                                                                                                                                                 
+            name: "Weikun Liang",                                                                                                                                                                                 
             position: "Board Member",                                                                                                                                                                 
-            major_year: "",
+            major: "Information Systems",
+            year: "2016",
             description: ""
         },
         {
-            name: "",                                                                                                                                                                                 
+            name: "Jamie Zhan",                                                                                                                                                                                 
             position: "Board Member",                                                                                                                                                                 
-            major_year: "",
+            major: "Biology/Pre-Med",
+            year: "2016",
+            description: "I got into acting because I couldn't play the piano. Oh and I'm from New York."
+        },
+        {
+            name: "Jessica Yang",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major: "Music/Flute Performance",
+            year: "2016",
+            description: "I was born in Beijing and lived most of my life in the Greater Boston Area. Aside from music, I enjoy reading romance novels, baking sweet treats, shopping, and spending time with the ARCC Family!"
+        },
+        {
+            name: "Justin Chiu",                                                                                                                                                                                 
+            position: "Board Member",                                                                                                                                                                 
+            major: "Language Technology",
+            year: "DOCTORAL",
             description: ""
         },
         {
-            name: "",                                                                                                                                                                                 
+            name: "Nathan Love",                                                                                                                                                                                 
             position: "Board Member",                                                                                                                                                                 
-            major_year: "",
+            major: "ECE",
+            year: "2016",
             description: ""
         },
         {
-            name: "",                                                                                                                                                                                 
+            name: "Michael Fu",                                                                                                                                                                                 
             position: "Board Member",                                                                                                                                                                 
-            major_year: "",
+            major: "Mat Sci & Engineering",
+            year: "MASTERS",
             description: ""
         },
         {
-            name: "",                                                                                                                                                                                 
+            name: "David Lu",                                                                                                                                                                                 
             position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
-            description: ""
-        },
-        {
-            name: "",                                                                                                                                                                                 
-            position: "Board Member",                                                                                                                                                                 
-            major_year: "",
+            major: "Computer Science",
+            year: "2016",
             description: ""
         }
     ];
