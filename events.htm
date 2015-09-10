@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="ARCC" />
+    <link rel ="shortcut icon" href="img/favicon.ico" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+	<title>ARCC | Events</title>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    <!-- Loading -->
+    <script type="text/javascript">
+    $(function() { 
+    $('.main_content, .main_navi').hide(); 
+    $(window).load( function() {  
+    $('#loader').fadeOut();
+    $('.main_content, .main_navi').fadeIn(500); 
+    } );
+    } );
+                        
+    $(document).ready(function() {
+    $("body").css("display", "none");
+
+    $("body").fadeIn(2000);
+
+	$("a.transition").click(function(event){
+		event.preventDefault();
+		linkLocation = this.href;
+		$("body").fadeOut(1000, redirectPage);
+	});
+
+	function redirectPage() {
+		window.location = linkLocation;
+	}
+    });
+    </script>
+    
+</head>
+
+<body id="events">
+<div id="container">
+
+    <div class="stripe"></div>
+
+<div id="content">
+
+<!-- Header -->
+
+<div id="header">
+
+<div id="loader"><img alt="Loading.." src="img/ajax-loader.gif" /></div>
+
+<center><a title="Back to home" href="home.htm"><img class="logo" src="img/logo.jpg" /></a></center>
+
+<ul class="main_navi">
+        <li><a class="transition" href="index.html">Home</a></li>
+        <li><a class="transition" href="about.htm">About</a></li>
+        <li class="current"><a class="transition" href="events.htm">Events</a></li>
+        <li><a class="transition" href="members.htm">Members</a></li>
+        <li><a class="transition" href="apply.htm">Apply</a></li>
+        <!--<li><a class="transition" href="onib.htm">RSVP for ONiB</a></li>-->
+</ul>
+
+
+
+</div>
+
+
+
+<!-- Top Content -->
+<div class="main_content">
+
+    <div id="between_lines">
+
+    <h1 class="title">Events | Come out and be merry with us.</h2>
+    
+    <p class="title_descriptions">ARCC puts on a variety of events for you to learn about the Chinese Culture. This page gives you just a brief glimpse into a few of them. Take a look around, then come on out to enjoy delicious food, meet new people, and watch breath-taking performances. More events will be added to this page as they come up.</p><br/>
+    <p>Note that all of the following gorgeous photos are courtesy of David Hsu. You can check out his website <a href="http://www.dhavatar.com/">here</a>.</p>
+    </div>
+    
+    <ul class="work_list">
+        
+        <li>
+        <div class="event_pic"><img alt="Work image" src="img/events/preview/cnydinner.jpg" />
+        </div>
+            
+        <div class="work_info">
+        
+        <h2>Chinese New Year Dinner</h2>
+        <h4>Spring 2015</h4>
+        <h4>UC Connan</h4>
+        
+        <p>The Lunar New Year is the biggest holiday celebrated by East Asians. Originally, the purpose of the 
+        celebration was to welcome the coming of Spring in the farming communities. ARCC celebrates the Chinese 
+        New Year by hosting an annual dinner with authentic Chinese food.</p>
+        </div>
+        
+
+        </li>
+
+
+        <li  class="last_img">
+        <div class="event_pic"><img alt="Work image" src="img/events/preview/nightmarket.jpg" />
+        </div>
+            
+        <div class="work_info">
+        
+        <h2><!--<a class="transition" href="view_work.htm">-->Night Market<!--</a>--></h2>
+        <h4>Spring 2015</h4>
+        <h4>UC Wean Commons</h4>
+        
+        <p>In Mainland China, Hong Kong, Taiwan, and other Asian countries, nightlife is something truly unique. 
+        When the sun sets, independent vendors with carts fill the streets with delicious food, clothing, jewelry 
+        and anything you may wish to buy. The streets are alive with laughter, an appetizing aroma, and crowds of 
+        happy people everywhere. ARCC seeks to recreate the lively night atmosphere with its annual Night Market 
+        where student organizations can gather to sell food from their respective cultural backgrounds.</p>
+        </div>
+        
+
+        </li>
+        
+        <li>
+        <div class="event_pic"><img alt="Work image" src="img/events/preview/onib.jpg" />
+        </div>
+            
+        <div class="work_info">
+        
+        <h2>One Night in Beijing</h2>
+        <h4>Spring 2015</h4>
+        <h4>UC Rangos</h4>
+        
+        <p>Come and enjoy an evening of Chinese cultural performances, including dancing, singing, music, 
+        and a fashion show featuring both traditional and contemporary Chinese clothing. Experience Chinese 
+        culture and tradition while enjoying tasty snacks sold by various CMU Asian organizations.</p>
+        </div>
+        
+
+        </li>
+		
+		<li class="last_img">
+        <div class="event_pic"><!--<a class="transition" href="view_work.htm">--><img alt="Work image" src="img/events/preview/gbm.jpg" /><!--</a>
+            <a class="transition" href="view_work.htm"></a>-->
+        </div>
+           
+        <div class="work_info">
+        
+        <h2>Tangyuan Night</h2>
+        <h4>Fall 2014</h4>
+        <h4>Location TBA; usually Stever Kitchen</h4>
+        
+        <p>Come and learn all about who we are and what we do. 
+		We will have a (free) hands-on tangyuan (rice balls) making session. 
+		We'll introduce ourselves and go over our upcoming events, but just come and chat with us.. 
+		we'd love to get to know you :) All people are welcome! All those new freshman looking for a 
+		fun and involved group on campus are especially encouraged to come hang out.</p>
+        </div>
+        
+
+        </li>
+        
+        <li>
+        <div class="event_pic"><img alt="Work image" src="img/events/preview/midautumn.jpg" />
+        </div>
+            
+        <div class="work_info">
+        
+        <h2>Mid-Autumn Festival</h2>
+        <h4>Fall 2014</h4>
+        <h4>Location TBA; usually UC Black Chairs</h4>
+        
+        <p>Mid-Autumn Festival is the second-most celebrated Chinese holiday and dates back over 3,000 years. 
+        On this traditional holiday, families and friends get together to eat moon cakes and enjoy the brightness 
+        of the full moon ('shang yue'). For the Chinese, the full moon has always represented the gathering of friends 
+        and family, thus it is a time for reunions. ARCC's Mid-Autumn Festival consists of a fun-filled night of 
+        celebration, showcasing various dance and musical performances and, of course, moon cakes!</p>
+        </div>
+        
+
+        </li>
+        
+        <li class="last_img">
+        <div class="event_pic"><img alt="Work image" src="img/events/preview/dumpling.jpg" />
+        </div>
+            
+        <div class="work_info">
+        
+        <h2>Dumpling Night</h2>
+        <h4>Fall 2014</h4>
+        <h4>Stever Kitchen</h4>
+        
+        <p>Dumpling Night gives everyone a perfect opportunity to learn how to make dumplings! Since 2004, ARCC hosted the 
+        event with New House to provide students a chance to make their own dumplings. Every year, ARCC provides all 
+        the ingredients; all you have to do is show up! We also cook your dumplings on the spot so you can enjoy 
+        them right after you make them.</p>
+        </div>
+        
+
+        </li>
+    
+    </ul>
+    
+<!--    <ul class="page_navi">
+    
+    <li class="current"><a href="events.htm">1</a></li>
+    <li><a href="events.htm">2</a></li>
+    <li><a href="events.htm">3</a></li>
+    <li><a href="events.htm">4</a></li>
+    <li><a href="events.htm">5</a></li>
+
+    </ul>
+-->
+      
+
+<div id="footer">
+    
+    <ul class="footer_navi">
+        <li><a class="transition" href="index.html">Home</a></li>
+        <li><a class="transition" href="about.htm">About</a></li>
+        <li class="current"><a class="transition" href="events.htm">Events</a></li>
+        <li><a class="transition" href="members.htm">Members</a></li>
+        <li><a class="transition" href="apply.htm">Apply</a></li>
+        <li><a class="transition" href="onib.htm">RSVP for ONiB</a></li>
+    </ul>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+body{
+	font-family: helvetica, arial, "Times New Roman" ;
+	color: rgb(237,59,59);
+	background-color: rgb(34,61,128);
+}
+
+#returnhome {
+position: absolute;
+width: 1000px;
+height: 142px;
+top: 180px;
+left: 340px;
+}
+
+#returnarcc {
+position: absolute;
+width: 100px;
+height: 142px;
+top: 60px;
+left: 780px;
+}
+
+#wrapper{
+
+  margin-left: auto;
+  margin-right: auto;
+  width:1000px;
+  height:760px;
+}
+#content{
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-image: url("background.jpg");
+
+  width:1000px;
+  height:750px;
+  
+
+}
+
+#infolayer{
+	width: 430px;
+}
+#footer{
+	margin-top: 5px;
+	font-size: 12px;
+}
+.text_content{
+	position: absolute;
+    color: #3055A3;
+	margin-left: 350px;
+	margin-top: 290px;
+	font-size: 12px;
+	width: 500px;
+}
+.menu{
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 240px;
+	height: 32px;
+	width: 700px;
+	border-style:none;
+	font-size: 18px;
+}
+a {
+	color: rgb(251,63,64);
+	outline: 0;
+}
+
+.menu a{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a:active {
+	color: rgb(251,63,64);
+}
+
+a:hover {
+	color: rgb(251,63,64);
+}
+
+a:link {
+	color: rgb(251,63,64);
+}
+
+a:visited {
+	color: rgb(251,63,64);
+}
+
+div.sc_menu_wrapper {
+  position: absolute;   
+  height: 430px;
+  /* Make bigger than a photo, because we need a place for a scroll-bar. */
+  width: 180px;
+  margin-left: 130px;
+  margin-top: 280px;
+  overflow: auto;
+}
+div.sc_menu {
+  padding: 15px 0;
+}
+.sc_menu a {
+  display: block;
+  margin-bottom: 5px;
+  width: 160px;
+
+  border: 2px rgb(79, 79, 79) solid;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+
+  /* When image support is turned off */
+  color: #fff;
+  background: rgb(79, 79, 79);  
+}
+.sc_menu a:hover {
+  border-color: rgb(130, 130, 130);
+  border-style: dotted;
+}
+.sc_menu img {
+  display: block;
+  border: none;
+}
+.sc_menu_wrapper .loading {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+	margin: 0 auto;
+	padding: 10px;
+ 
+	width: 100px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;	
+	
+	text-align: center;
+	color: #fff;
+	border: 1px solid rgb(79, 79, 79);
+	background: #1F1D1D;
+}
+/* Styling tooltip */
+.sc_menu_tooltip {
+	display: block;
+	position: absolute;
+	
+	padding: 6px;
+	font-size: 12px;	
+	color: #fff;
+	
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;	
+	
+	border: 1px solid rgb(79, 79, 79);
+	background: rgb(0, 0, 0);
+	/* Make background a bit transparent for browsers that support rgba */	
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+}
+
+.LV_valid {
+    color:#00CC00;
+}
+	
+.LV_invalid {
+    color:#CC0000;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #CC0000;
+}
+fieldset {   
+margin: 1.5em 0 0 0;   
+padding: 0; 
+border: 1px solid #BFBAB0;     
+background-color: #F2EFE9; 
+}  
+legend {   
+margin-left: 1em;   
+color: #000000;   
+font-weight: bold;  
+}  
+fieldset ul {   
+padding: 1em 1em 0 1em;   
+list-style: none;  
+}  
+fieldset li {   
+}  
+fieldset.submit {   
+border-style: none;  
+}
+label {    
+display: block;
+float: left;    
+width: 6em;    
+margin-right: 1em;      
+}
+.button {
+    border: 1px solid #006;
+    background: #9cf;
+	margin-left: 10px;
+}
+

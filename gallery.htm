@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <link rel ="shortcut icon" href="img/favicon.ico" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+    
+	<title>ARCC | Photo Gallery</title>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    <!-- Loading -->
+    <script type="text/javascript">
+    $(function() { 
+    $('.main_content, .main_navi').hide(); 
+    $(window).load( function() {  
+    $('#loader').fadeOut();
+    $('.main_content, .main_navi').fadeIn(500); 
+    } );
+    } );
+                        
+    $(document).ready(function() {
+    $("body").css("display", "none");
+
+    $("body").fadeIn(2000);
+
+	$("a.transition").click(function(event){
+		event.preventDefault();
+		linkLocation = this.href;
+		$("body").fadeOut(1000, redirectPage);
+	});
+
+	function redirectPage() {
+		window.location = linkLocation;
+	}
+    });
+    </script>
+    
+</head>
+
+<body id="gallery">
+<div id="container">
+
+    <div class="stripe"></div>
+
+<div id="content">
+
+<!-- Header -->
+
+<div id="header">
+
+    <div id="loader"><img alt="Loading.." src="img/ajax-loader.gif" /></div>
+    
+    <center><a title="Back to home" href="home.htm"><img class="logo" src="img/logo.jpg" /></a></center>
+    
+    <ul class="main_navi">
+            <li><a class="transition" href="home.htm">Home</a></li>
+            <li><a class="transition" href="about.htm">About</a></li>
+            <li><a class="transition" href="events.htm">Events</a></li>
+            <li class="current"><a class="transition" href="gallery.htm">Photo Gallery</a></li>
+            <li><a class="transition" href="members.htm">Members</a></li>
+            <!--<li><a class="transition" href="apply.htm">Apply</a></li>-->
+            <li><a class="transition" href="onib.htm">RSVP for ONiB</a></li>
+    </ul>
+
+</div>
+
+<!-- Top Content -->
+<div class="main_content">
+    <div id="between_lines">
+    	<h1 class="title">Photo Gallery | We take a lot of pretty pictures.</h1>
+    	<p class="title_descriptions">Take a look inside all of the wonderful memories we've created through the years.</p>
+    </div>
+    <br /><br />
+</div>
+
+
+<center>
+<a data-pin-do="embedBoard" href="http://pinterest.com/cmuarcc/cmu-arcc-one-night-in-beijing/"></a>
+<br /><br /><br />
+<a data-pin-do="embedBoard" href="http://pinterest.com/cmuarcc/cmu-arcc-dumpling-night/"></a>
+<br /><br /><br />
+<a data-pin-do="embedBoard" href="http://pinterest.com/cmuarcc/cmu-arcc-mid-autumn-festival/"></a>
+<br /><br /><br />
+<a data-pin-do="embedBoard" href="http://pinterest.com/cmuarcc/cmu-arcc-night-market/"></a>
+<br /><br /><br />
+<a data-pin-do="embedBoard" href="http://pinterest.com/cmuarcc/cmu-arcc-chinese-new-year-dinner/"></a>
+<br /><br /><br />
+<a data-pin-do="embedBoard" href="http://pinterest.com/cmuarcc/cmu-arcc-general-body-meeting/"></a>
+</center>
+
+
+<div id="footer">
+    <ul class="footer_navi">
+        <li><a class="transition" href="home.htm">Home</a></li>
+        <li><a class="transition" href="about.htm">About</a></li>
+        <li><a class="transition" href="events.htm">Events</a></li>
+        <li class="current"><a class="transition" href="gallery.htm">Photo Gallery</a></li>
+        <li><a class="transition" href="members.htm">Members</a></li>
+        <li><a class="transition" href="apply.htm">Apply</a></li>
+        <li><a class="transition" href="onib.htm">RSVP for ONiB</a></li>
+    </ul>
+</div>
+
+</div>
+</div>
+
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+</body>
+</html>
