@@ -2,17 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-	<meta name="author" content="ARCC" />
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta name="author" content="ARCC" />
     <link rel ="shortcut icon" href="img/favicon.ico" />
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
-    
-	<title>ARCC | Members</title>
-    
-    <script type="text/javascript" src="js/jquery.js"></script>
-    
+
+    <title>ARCC | Members</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="http://www.parsecdn.com/js/parse-1.6.14.min.js"></script>
+    <script type="text/javascript" src="js/members.js"></script>
+
     <!-- Loading -->
     <script type="text/javascript">
     $(function() { 
@@ -43,571 +45,52 @@
 </head>
 
 <body id="members">
-<div id="container">
+  <div id="container">
 
     <div class="stripe"></div>
 
-<div id="content">
+    <div id="content">
 
-<!-- Header -->
+      <!-- Header -->
+      <div id="header">
+        <div id="loader"><img alt="Loading.." src="img/ajax-loader.gif" /></div>
 
-<div id="header">
+        <center><a title="Back to home" href="index.html"><img class="logo" src="img/logo.jpg" alt="thelogo" /></a></center>
 
-<div id="loader"><img alt="Loading.." src="img/ajax-loader.gif" /></div>
+        <ul class="main_navi">
+          <li><a class="transition" href="index.html">Home</a></li>
+          <li><a class="transition" href="about.htm">About</a></li>
+          <li><a class="transition" href="events.htm">Events</a></li>
+          <li class="current"><a class="transition" href="members.htm">Members</a></li>
+          <li><a class="transition" href="apply.htm">Apply</a></li>
+          <li><a class="transition" href="onib.htm">RSVP for ONiB</a></li>
+        </ul>
+      </div>
 
-<center><a title="Back to home" href="home.htm"><img class="logo" src="img/logo.jpg" alt="thelogo" /></a></center>
+      <!-- Top Content -->
+      <div class="main_content">
 
-<ul class="main_navi">
-        <li><a class="transition" href="index.html">Home</a></li>
-        <li><a class="transition" href="about.htm">About</a></li>
-        <li><a class="transition" href="events.htm">Events</a></li>
-        <li class="current"><a class="transition" href="members.htm">Members</a></li>
-        <li><a class="transition" href="apply.htm">Apply</a></li>
-        <li><a class="transition" href="onib.htm">RSVP for ONiB</a></li>
-</ul>
+        <div id="between_lines">
+          <h1 class="title">Members | Meet the board!</h1>
+          <p class="title_descriptions">Behind the scenes of all the extravagant events is a group of hard-working people who put it all together. But we have a lot of fun while we're at it. Some of our past board-bonding events have included hotpot, ice skating, apple picking, half-price, board games, and even toppling out of whitewater rafts. Good people, good fun.</p>
+        </div>
 
-</div>
+        <div class="our_team" />
 
+        <div id="footer">
+          <ul class="footer_navi">
+            <li><a class="transition" href="index.html">Home</a></li>
+            <li><a class="transition" href="about.htm">About</a></li>
+            <li><a class="transition" href="events.htm">Events</a></li>
+            <li class="current"><a class="transition" href="members.htm">Members</a></li>
+            <li><a class="transition" href="apply.htm">Apply</a></li>
+            <li><a class="transition" href="onib.htm">RSVP for ONiB</a></li>
+          </ul>
 
+        </div>
 
-<!-- Top Content -->
-<div class="main_content">
-
-	<div id="between_lines">
-
-    <h1 class="title">Members | Meet the board!</h1>
-    <p class="title_descriptions">Behind the scenes of all the extravagant events is a group of hard-working people who put it all together. But we have a lot of fun while we're at it. Some of our past board-bonding events have included hotpot potluck, ice-skating, apple picking, half-price, and even toppling out of whitewater rafts. Good people, good fun.</p>
-    
+      </div>
     </div>
-    
-    <div class="our_team">
-        
-        <div class="member">
-        <img alt="Alexandr" src="img/team/members/calvin.jpg" height="200" width="200"/>
-        
-        <div class="team_info">
-        
-        <h2>Calvin Chan</h2>
-        <h4>President</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">MECHE/BME | 2015</span> 
-	<br />
-	</p>
-        
-        </div>
-    
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Maria" src="img/team/members/annie.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Annie Chen</h2>
-        <h4>Vice President</h4>
-        
-        <p style="font-size:13px;"><span style="font-size:10px;">INFORMATION SYSTEMS | 2016</span> 
-	<br />
-	I'm a SoCal girl who enjoys cooking, gaming, reading manga,
-	cosplaying, and helping others. I love hanging out with my 
-	ARCC family! &#9829;  
-	</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/crystal.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Crystal Hou</h2>
-        <h4>Secretary</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">BUSINESS/STATISTICS | 2017</span> 
-	<br />
-	</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/michelle.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Michelle Wong</h2>
-        <h4>Treasurer</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">BUSINESS ADMINISTRATION | 2016</span> 
-	<br />
-	</p>
-        
-        </div>
-        
-        </div>
-
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/jia.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Jia Xu</h2>
-        <h4>ONiB Coordinator</h4>
-        
-        <p><span style="font-size:10px;">MATHEMATICAL SCIENCES | 2015</span>
-	<br /><br />
-	</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/jamie.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Jamie Zhan</h2>
-        <h4>Performance Chair</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">BIOLOGY/PRE-MED | 2016</span>
-	<br />
-	I got into acting because I couldn't play the piano. Oh and I'm from New York.</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/jessica.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Jessica Yang</h2>
-        <h4>Performance Chair</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">MUSIC/FLUTE PERFORMANCE | 2016</span>
-	<br /><!--<br>-->
-	I was born in Beijing and lived most of my life in the 
-	Greater Boston Area. Aside from music, I enjoy reading romance
-	novels, baking sweet treats, shopping, and spending time with the
-	ARCC Family!</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/tim.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Timothy Gao</h2>
-        <h4>PR Manager</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">NEUROSCIENCE/PRE-MED | 2017</span>
-	<br /><!--<br>-->
-	I love making people laugh because everyone's life is hard enough.  Costco is life because they offer the best selection of USDA certified beef.  I fangirl about princess movies and basketball. #knickstape</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/ivan.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Ivan Wang</h2>
-        <h4>Historian</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">COMPUTER SCIENCE | 2016</span> 
-	<br /><span style="line-height:140%;">Honest and trustable, I joined ARCC to bond with 
-	others; indeed, my sincerity is rivaled only by my camaraderie. 
-	When not cooperating in a friendly game of Resistance, I enjoy 
-	(deceit-free) board games, as well as coding, music, and game design.</span></p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/justin.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Justin Chiu</h2>
-        <h4>Culture Chair</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">LANGUAGE TECHNOLOGY | DOCTORAL</span> 
-	<br />
-	A person who is too western in the East yet too eastern in the West.
-	</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/david.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>David Lu</h2>
-        <h4>Graphics Chair</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">COMPUTER SCIENCE | 2016</span>
-	<br />
-	I'm a cat.<br />
-	Hear me mrao~~~~~ <br /> 
-	MEEE-OW!</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/louise.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Louise Zhou</h2>
-        <h4>Graphics Chair</h4>
-        
-        <p style="font-size:13px;"><span style="font-size:10px;">DIETRICH | 2017</span> 
-	<br />
-	Louise is from NorCal and believes firmly in Pearl Milk Tea, not Boba, not Bubble Tea.
-	Louise enjoys eating pumpkin pie, watching dramas/anime, reading manga, and listening to k-pop. 
-	She is married to EXO's Kai.
-	</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/anny.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Anny Ni</h2>
-        <h4>Webmaster</h4>
-        
-        <p style="font-size:13px;"><span style="font-size:10px;">ECE | 2016</span>
-	<br />
-	I love going on the interwebz! I have a strange addiction to  watching
-	gamers on Youtube and I also like reading manga (and sometimes watching 	anime)! Red pandas are amazing. 
-        </p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Vladislav" src="img/team/members/4.png" />
-        
-        <div class="team_info">
-
-        <h2>Alicia Wu</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:13px;"><span style="font-size:10px;">CHEMISTRY | 2017</span> 
-    <br /> <span style="line-height:120%;">
-    </span>
-    </p>
-        
-        </div>
-        
-        </div>
-
-        <div class="member">
-        <img alt="Evgeniy" src="img/team/members/4.png" />
-        
-        <div class="team_info">
-        
-        <h2>Andy Jiang</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">BME | 2017</span> 
-    <br />
-    </p>
-        
-        </div>
-        
-        </div>
-
-
-        <div class="member last_img">
-        <img alt="Vladislav" src="img/team/members/audrey.jpg" />
-        
-        <div class="team_info">
-
-        <h2>Audrey Wu</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:13px;"><span style="font-size:10px;">BUSINESS ADMINISTRATION | 2015</span> 
-	<br /> <span style="line-height:120%;">
-	Audrey joined ARCC through One Night in Beijing. Since then,
-	she's taken an interest in modern dance with traditional Chinese 
-	elements, especially Tai Chi fan. She also enjoys combat-based
-	 (MMO)RPG games and League of Legends, and has two level 80 Skyrim 
-	characters.</span>
-	</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/4.png" />
-        
-        <div class="team_info">
-
-        <h2>Clara Kim</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:13px;"><span style="font-size:10px;">INFORMATION SYSTEMS | 2017</span> 
-    <br /> <span style="line-height:120%;">
-    </span>
-    </p>
-        
-        </div>
-        
-        </div>
-
-        <div class="member last_img">
-        <img alt="Vladislav" src="img/team/members/connie.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Connie Chen</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">INFORMATION SYSTEMS | 2015</span> 
-	<br />
-	</p>
-        
-        </div>
-
-        </div>
-        
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/4.png" />
-        
-        <div class="team_info">
-
-        <h2>Delia Zhao</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:13px;"><span style="font-size:10px;">INFORMATION SYSTEMS | 2015</span> 
-    <br /> <span style="line-height:120%;">
-   </span>
-    </p>
-        
-        </div>
-
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/emmie.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Emmie Zhang</h2>
-        <h4>Board Member</h4>
-        
-        <p><span style="font-size:10px;">MATHEMATICAL SCIENCES | 2015</span></p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member">
-        <img alt="Vladislav" src="img/team/members/joy.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Joy Lin</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">COMPUTER SCIENCE | 2015</span> 
-	<br />
-	</p>
-        
-        </div>
-        
-        </div>
-        
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/maggie.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Maggie Li</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">INFORMATION SYSTEMS | 2016</span> 
-	<br />
-	</p>
-        
-        </div>
-        
-        </div>
-
-	<div class="member">
-        <img alt="Vladislav" src="img/team/members/mason.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Mason Park</h2>
-        <h4>Board Member</h4>
-        
-        <p><span style="font-size:10px;">SOCIAL &amp; DECISION SCIENCES | 2015</span></p>
-        
-        </div>
-        
-        </div>
-
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/4.png" />
-        
-        <div class="team_info">
-        
-        <h2>Mercy Soong</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;"> | 2018</span> 
-    <br />
-    </p>
-        
-        </div>
-        
-        </div>
-        
-	<div class="member">
-        <img alt="Vladislav" src="img/team/members/michael.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Michael Fu</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">MATSCI &amp; ENGINEERING | 2015</span> 
-	<br />
-	</p>
-        
-        </div>
-        
-        </div>
-
-        <div class="member last_img">
-        <img alt="Evgeniy" src="img/team/members/michellem.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Michelle Ma</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">MECHE/BME | 2017</span> 
-    <br />
-    </p>
-        
-        </div>
-        
-        </div>
-
-	<div class="member">
-        <img alt="Vladislav" src="img/team/members/nathan.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Nathan Love</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">ECE | 2016</span>
-	<br />
-	I appreciate many aspects of Chinese culture, both traditional 
-	and modern, but especially the design of characters. 
-	<!--Also each new piece of ????.-->
-	With my ARCC family I look forward to fun activities infused
-	 with culture each year!</p>
-        
-        </div>
-        
-        </div>
-
-
-	
-	<div class="member last_img">
-        <img alt="Vladislav" src="img/team/members/sophia.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Sophia Feng</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">COMPUTER SCIENCE | 2015</span> 
-	<br />
-	</p>
-        
-        </div>
-        
-        </div>
-	
-	<div class="member">
-        <img alt="Vladislav" src="img/team/members/tom.jpg" height ="200" width="200"/>
-        
-        <div class="team_info">
-        
-        <h2>Thomas Li</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">BUSINESS/CS MINOR | 2015</span> 
-	<br />
-	I like eating fancy foods, gaming, and watching movies.</p>
-        
-        </div>
-        
-        </div>
-
-	<div class="member last_img">
-        <img alt="Vladislav" src="img/team/members/weikun.jpg" />
-        
-        <div class="team_info">
-        
-        <h2>Weikun Liang</h2>
-        <h4>Board Member</h4>
-        
-        <p style="font-size:12px;"><span style="font-size:10px;">INFORMATION SYSTEMS | 2016</span> 
-	<br />
-	</p>
-        
-        </div>
-        
-        </div>
-
-    </div>
-    
-    
-    
-<div id="footer">
-    
-    <ul class="footer_navi">
-        <li><a class="transition" href="index.html">Home</a></li>
-        <li><a class="transition" href="about.htm">About</a></li>
-        <li><a class="transition" href="events.htm">Events</a></li>
-        <li class="current"><a class="transition" href="members.htm">Members</a></li>
-        <li><a class="transition" href="apply.htm">Apply</a></li>
-        <li><a class="transition" href="onib.htm">RSVP for ONiB</a></li>
-    </ul>
-
-</div>
-
-</div>
-</div>
-</div>
+  </div>
 </body>
 </html>
